@@ -18,6 +18,6 @@ class Movie(models.Model):
         return self.title
 
     class Meta:
-        ordering = ('title',)from django.db import models
+        ordering = ('title',)
 
 # Create your models here.
